@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatcHGoods</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menulist">
+                    <li><a href="WatcHGoods.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="location.html">Locations</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" class="cart-img">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>About Us</h1>
+                <br>
+                <h2>Welcome to WatchGoods – Your Trusted Destination for Timepieces</h2>
+                <p>At WatchGoods, we are passionate about delivering exceptional watches that combine style, craftsmanship, 
+                    and precision. With a commitment to quality,
+                    service, and authenticity, we strive to provide a seamless shopping experience for watch enthusiasts worldwide.</p>
+                    <br>
+                    <h2>Our Story</h2>
+                <p>WatchGoods was founded with a vision to curate a collection of timepieces that embody elegance, 
+                    innovation, and timeless appeal. Our journey began in 2023, when our founder, Maxwell, 
+                    a seasoned watch connoisseur, recognized the need for a trusted platform that offers a 
+                    carefully selected range of watches from renowned brands.<br><br>
+                    Driven by our passion for horology, we set out to create a 
+                    destination where watch lovers could explore a diverse selection of timepieces, 
+                    from classic designs to cutting-edge innovations. We handpick every watch in our 
+                    collection, ensuring that each piece meets our stringent standards of quality and authenticity.</p><br><br>
+
+                    <h2>Our commitment</h2>
+                    <p>1. Quality: We believe that a watch should be a testament to exceptional craftsmanship and enduring quality. 
+                        That's why we collaborate with esteemed brands and manufacturers known for their precision and attention to detail. 
+                        Every watch in our collection undergoes rigorous quality checks to ensure it meets our stringent standards.</p><br><br>
+
+                    <p>2.Service: At WatchGoods, we prioritize the satisfaction of our customers above all else. 
+                        Our dedicated team is committed to providing exceptional customer service throughout your shopping journey. 
+                        Whether you have a question, need assistance, or require post-purchase support, our knowledgeable and friendly 
+                        experts are here to help.</p><br><br>
+                    
+                    <p>3. Authenticity: We understand the importance of owning a genuine timepiece. 
+                        That's why we guarantee the authenticity of every watch we sell. 
+                        We source our watches directly from authorized dealers and trusted suppliers, establishing strong relationships 
+                        within the watch industry to ensure our customers receive only original and authentic products.</p><br><br>
+
+                    <h2>Our Promise</h2>
+                    <p>When you choose WatchGoods, you can be confident that you are investing in a timepiece that represents the 
+                        perfect blend of style, craftsmanship, and reliability. Whether you're searching for a watch to elevate your 
+                        everyday look or seeking a statement piece for a special occasion, we are here to guide you in finding the perfect match.</p><br><br><br>
+
+                    <h2>Thank you for choosing WatchGoods as your trusted source for exceptional timepieces. 
+                    </h2><br><br>
+
+            </div>
+            <div class="col-2">
+                <img src="images/Untitled design (3).png">
+                <img src="images/picture.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile home</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-2">
+                <img src="images/logowhite.png">
+            </div>
+            <div class="footer-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            <div class="footer-4">
+                <h3>Contact Us</h3>
+                    <ul>
+                        <li>WatcHGoods@gmail.com</li>
+                        <li>+628115064499</li>
+                        <li>Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten 15143</li>
+                    </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Binus</p>
+    </div>
+</div>
+
+<script>
+    var menulist = document.getElementById("menulist");
+
+    menulist.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menulist.style.maxHeight == "0px"){
+            menulist.style.maxHeight = "200px";
+        }
+        else{
+            menulist.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products-WatcHGoods</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menulist">
+                    <li><a href="WatcHGoods.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="location.html">Locations</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" class="cart-img">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div>
+<div class="small-container">
+    <h2 style="text-align: center; color: #555; padding-top: 100px;">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/Product1.png" >
+            <h4>TAG HEUER CARRERA</h4>
+            <p>Rp 119.847.000</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product2.png">
+            <h4>ROLEX OYSTER PERPETUAL</h4>
+            <p>Rp 119.847.000</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product3.png">
+            <h4>ROYAL OAK CONCEPT TOURBILLON "SPIDER-MAN" EDITION</h4>
+            <p>Rp 3,196,442,076.30</p>
+        </div>
+    </div>
+    <h2 style="text-align: center; color: #555;">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product4.png" >
+            <h4>P1C/05 "CURAÇAO"</h4>
+            <p>Rp 23,028,737.50</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product5.png">
+            <h4>Patek Philippe 7300/1200R - TWENTY~4</h4>
+            <p>Rp 737,960,668 </p>
+        </div>
+        <div class="col-4">
+            <img src="images/product6.png">
+            <h4>AQUA TERRA 150M
+                CO‑AXIAL MASTER CHRONOMETER 38 MM</h4>
+            <p>Rp 117.200.000,00</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile home</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-2">
+                <img src="images/logowhite.png">
+            </div>
+            <div class="footer-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            <div class="footer-4">
+                <h3>Contact Us</h3>
+                    <ul>
+                        <li>WatcHGoods@gmail.com</li>
+                        <li>+628115064499</li>
+                        <li>Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten 15143</li>
+                    </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Binus</p>
+    </div>
+</div>
+
+<script>
+    var menulist = document.getElementById("menulist");
+
+    menulist.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menulist.style.maxHeight == "0px"){
+            menulist.style.maxHeight = "200px";
+        }
+        else{
+            menulist.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+</body>
+</html>
